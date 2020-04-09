@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+	background-color:#3fa46a;
+	 margin: 0px;
+}
+
+nav {
+  border-radius: 10px;
+  margin-top:5px;
+  padding: 30px;
+  text-align: right;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+#nav-1 {
+  background: #3fa46a;
+}
+
+.link-1 {
+  transition: 0.5s ease;
+  background: #3fa46a;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #3fa46a;
+  border-bottom: 4px solid #3fa46a;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+.bodycontent{
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background: #3fa46a;
+	height:100%;
+	width:100%;
+	
+}
+.user{
+	color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background:#3fa46a;
+	height:100%;
+	width:25%;
+	float:left;
+}
+.attendane{
+	color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background:#3fa46a;
+	width:100%;
+	height:10%;
+	
+}
+.subject{
+	
+	border-radius: 15px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background:#fff;
+	height:220%;
+	
+}
+
+
+.timetable{
+	color: #ffffff;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	margin-top:150px;
+	background:#3fa46a;
+	
+	
+}
+.timeview{
+	
+	border-radius: 15px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background:#fff;
+	height:30%;
+}
+.anouncement{
+	
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background:#fff;
+	width:37%;
+	height:31%;
+	float:left;
+	
+	
+	
+}
+.teachersonleave{
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	background:#fff;
+	width:38%;
+	height:31%;
+	float:left;
+	
+}
+
+.pofile{
+  background-color: lightgrey;
+  width: 20px;
+  border: 15px solid green;
+  padding: 15px;
+  margin: 20px;
+	
+}
+
+.detail{
+  background-color:gray;
+  width: 20px;
+  border: 15px solid green;
+  padding: 15px;
+  margin: 20px;
+	
+}
+	
+.rectangle {
+  height: 15%;
+  width: 100%;
+  background-color: #555;
+}
+#timedata{
+	 padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #4CAF50;
+     color: white;
+	 width: 75%; 
+	
+	
+	
+}
+tr:nth-child(even) {
+  background-color: #B2FF33;
+}
+
+
+#timedata tr:hover {background-color: green;}
+
+
+.box{
+  position: relative;
+  width: 700px;
+  height: 170px;
+  margin: auto; 
+  overflow: hidden;
+  top: 0px;
+}
+.graph{
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  border-left: 2px solid #FF8484;
+  border-bottom: 2px solid #FF8484;
+  left: 5%;
+}
+.graph:after{
+  position: absolute;
+  text-align: center;
+  bottom: -25px;
+  margin: auto;
+  left: 0;
+  color: #BA6161;
+  right: 0;  
+}
+.graph:before{
+  content: 'attendane';
+  position: absolute;
+  bottom: 50%;
+  left:-64px;
+  color: #BA6161;
+  transform: rotate(-90deg);
+}
+.m{
+
+  height: 80%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: up1 1s ease-in;
+}
+@keyframes up1{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 80%;
+  }
+}
+.tu{
+  height: 30%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 14.2857142857%;
+  animation: up2 1s ease-in;
+}
+@keyframes up2{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 30%;
+  }
+}
+.w{
+  height: 20%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 28.5714285714%;
+  animation: up3 1s ease-in;
+}
+@keyframes up3{ 
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 20%;
+  }
+}
+.tr{
+  height: 30%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 42.8571428571%;
+  animation: up4 1s ease-in;
+}
+@keyframes up4{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 30%;
+  }
+}
+.f{
+  height: 50%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 57.1428571429%;
+  animation: up5 1s ease-in;
+}
+@keyframes up5{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 50%;
+  }
+}
+.sa{
+  height: 40%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 71.4285714286%;
+  animation: up6 1s ease-in;
+}
+@keyframes up6{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 40%;
+  }
+}
+.su{
+  height: 10%;
+  width: calc(100% / 8);
+  background: #FF8484;
+  position: absolute;
+  bottom: 0;
+  left: 85.7142857143%;
+  animation: up7 1s ease-in;
+}
+@keyframes up7{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
